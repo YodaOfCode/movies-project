@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Movie = ({Title: title, Year: year, imdbID: id, Type: type, Poster: poster}) => {
+export const Movie = ({Title: title, Year: year, imdbID: id, Type: type, Poster: poster}) => {
 
     return (
         <div id={id} className="card movie">
@@ -18,5 +18,3 @@ const Movie = ({Title: title, Year: year, imdbID: id, Type: type, Poster: poster
         </div>
     )
 }
-
-export {Movie}

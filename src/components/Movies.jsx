@@ -1,7 +1,7 @@
 import React from 'react';
 import {Movie} from "./Movie";
 
-const Movies = ({movies = []}) => {
+export const Movies = ({movies = []}) => {
 
     return (
         <div className="movies">
@@ -14,5 +14,3 @@ const Movies = ({movies = []}) => {
         </div>
     )
 }
-
-export {Movies};
